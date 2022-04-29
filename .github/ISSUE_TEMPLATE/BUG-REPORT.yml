@@ -64,6 +64,8 @@ body:
         - Safari
         - Microsoft Edge
         - Opera
+        - Internet Explorer
+        - TOR
     validations:
       required: false
   - type: dropdown
