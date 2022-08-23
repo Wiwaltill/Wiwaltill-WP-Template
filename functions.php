@@ -191,12 +191,6 @@ function wiwaltill_wp_template_register_required_plugins() {
 		),
 
 		array(
-			'name'      => 'CoockieYes',
-			'slug'      => 'cookie-law-info',
-			'required'  => false,
-		),
-
-		array(
 			'name'      => 'Regenerate Thumbnails',
 			'slug'      => 'regenerate-thumbnails',
 			'required'  => false,
@@ -205,6 +199,12 @@ function wiwaltill_wp_template_register_required_plugins() {
 		array(
 			'name'      => 'Duplicator',
 			'slug'      => 'duplicator',
+			'required'  => false,
+		),
+		
+		array(
+			'name'      => 'Backup-Migration',
+			'slug'      => 'backup-backup',
 			'required'  => false,
 		),
 
