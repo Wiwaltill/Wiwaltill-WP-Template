@@ -4,7 +4,7 @@
  * Description: Automatische Installation von Wordpress Plugins, die jeder braucht.
  * Author: Till Esser
  * Author URI: http://till-esser.de
- * Version: 4.0
+ * Version: 5.0
  * Text Domain: wiwaltill-wp-template
  * Domain Path: /languages
  */
@@ -37,7 +37,7 @@ if( ! class_exists( 'Wiwaltill_WP_Template_UpdateChecker' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '4.0';
+			$this->version = '5.0';
 			$this->cache_key = 'wiwaltill_wp_template__upd';
 			$this->cache_allowed = false;
 
